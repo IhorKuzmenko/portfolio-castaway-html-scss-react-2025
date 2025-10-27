@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio-castaway-html-scss-react-2025/',
+  base: "/portfolio-castaway-html-scss-react-2025/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -13,7 +13,6 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        // теперь Sass знает, где искать "@/styles/variables.scss"
         additionalData: `@use "@/styles/variables.scss" as *;`,
       },
     },

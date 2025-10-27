@@ -23,6 +23,6 @@
 
 @each $icons in spotify, pocket_casts, soundcloud, apple_podcast, overcast {
   .icon_#{$icons} {
-    background-image: url(../../assets/#{$icons}.svg);
+    background-image: url("/portfolio-castaway-html-scss-react-2025/#{$icons}.svg");
   }
 }

@@ -1,6 +1,5 @@
 import css from "./HeroImage.module.scss";
 import heroImage from "../../../assets/hero_image.jpg";
-import logo from "../../../assets/icons.svg";
 
 export const HeroImage = () => {
   return (
@@ -11,7 +10,7 @@ export const HeroImage = () => {
         alt="A man in a studio wearing headphones and speaking into a microphone."
       />
       <svg className={css.hero__icon} width="68" height="74">
-        <use href={`${logo}#icon-hero_icon`} width="68" height="74"></use>
+        <use href={`/portfolio-castaway-html-scss-react-2025/icons.svg#icon-hero_icon`} width="68" height="74"></use>
       </svg>
     </div>
   );

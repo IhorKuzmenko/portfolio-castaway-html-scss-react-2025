@@ -1,0 +1,59 @@
+.biography__button {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 148px;
+
+    width: 112px;
+    height: 112px;
+
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: $green-blue-color;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 71px;
+        height: 71px;
+        background-image: url("/portfolio-castaway-html-scss-react-2025//arrow.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.biography__text {
+    margin-top: 20px;
+
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    color: var(--green-blue-color);
+}
+
+.biography__title {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 65px;
+    line-height: 1.22;
+    letter-spacing: 2.88px;
+}
+
+.biography__description {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    opacity: 0.7;
+
+    &--position {
+        margin-top: 28px;
+        margin-bottom: 33px;
+    }
+}
