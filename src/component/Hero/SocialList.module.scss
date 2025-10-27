@@ -1,0 +1,28 @@
+.social_media__list {
+  display: flex;
+  margin-top: 16px;
+  padding-left: 22px;
+
+  li:not(:last-child) {
+    margin-right: 17px;
+  }
+}
+
+.social_media__link {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@each $icons in spotify, pocket_casts, soundcloud, apple_podcast, overcast {
+  .icon_#{$icons} {
+    background-image: url(../../assets/#{$icons}.svg);
+  }
+}

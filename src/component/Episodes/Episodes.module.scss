@@ -1,0 +1,42 @@
+.episodes{
+  padding-top: 93px;
+  padding-bottom: 160px;
+}
+
+.episodes__container_position {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.episodes__title {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 64px;
+  line-height: 1.23;
+  letter-spacing: 2.88px;
+}
+
+.episodes__button {
+  margin-left: auto;
+  cursor: pointer;
+  width: 178px;
+  height: 51px;
+
+  background-color: $green-blue-color;
+  border-color: transparent;
+  border-radius: 6px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 17px;
+  line-height: 1.58;
+  letter-spacing: 0%;
+}
+
+.episodes__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

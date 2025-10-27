@@ -1,0 +1,12 @@
+.hero {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+.hero__container div:not(:last-child) {
+  margin-right: 60px;
+}/*# sourceMappingURL=Hero.module.css.map */

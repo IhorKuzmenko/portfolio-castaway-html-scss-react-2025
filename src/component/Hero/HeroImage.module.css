@@ -1,0 +1,14 @@
+.hero__image_container {
+  position: relative;
+}
+
+.hero__image {
+  border-radius: 12px;
+}
+
+.hero__icon {
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  left: -26px;
+}/*# sourceMappingURL=HeroImage.module.css.map */
