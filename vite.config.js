@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio-castaway-html-scss-react-2025/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
