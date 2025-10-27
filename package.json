@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+    "homepage": "https://IhorKuzmenko.github.io/portfolio-castaway-html-scss-react-2025/", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
