@@ -30,7 +30,8 @@ const reviewsData = [
 export const Reviews = () => {
   return (
     <section className={css.reviews}>
-      <div className={`container ${css.reviews__container}`}>
+      <div className={`container`}>
+        <div className={css.reviews__container}>
         <ul className={css.reviews__list}>
           {reviewsData.map(({ text, name }, index) => (
             <li key={index} className={css.reviews__link}>
@@ -48,6 +49,7 @@ export const Reviews = () => {
             </li>
           ))}
         </ul>
+        </div>
       </div>
     </section>
   );

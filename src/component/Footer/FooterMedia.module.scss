@@ -1,0 +1,15 @@
+.footer_media__list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+}

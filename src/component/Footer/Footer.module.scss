@@ -1,0 +1,26 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer__container {
+  display: flex;
+
+  div:first-child {
+    margin-right: 270px;
+  }
+}
+
+.footer__container_nav {
+  display: flex;
+
+  ul:first-child {
+    margin-right: 160px;
+  }
+}
+
+.social_media__wrapper {
+    margin-top: 0px;
+    margin-left: 56px;
+    padding: 0;
+}
